@@ -437,7 +437,7 @@
     }
     )
 }
-
+/*
 (jQuery);
 !function() {
     "use strict";
@@ -883,7 +883,6 @@
     }
     )
 }
-
 ();
 !function(e) {
     "use strict";
@@ -1021,3 +1020,4 @@
 }
 
 (jQuery);
+*/

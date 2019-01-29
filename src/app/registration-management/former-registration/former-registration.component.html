@@ -1,3 +1,57 @@
-<p>
-  former-registration works!
-</p>
+<section class="content-block content-block--12">
+  <div class="counter-wrapper">
+
+    <div class=" bgimage overlay overlay--primary">
+      <img src="../../../assets/img/c1bg.jpg" alt="">
+
+    </div><!-- ends: .counter -->
+
+  </div>
+  <div class="highlighted-text">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="content text-center d-flex align-items-center" style="padding-top: 5%">
+            <div class="divider text-center">
+              <h1 class="color-dark">Former registration</h1>
+              <span class="divider-split"></span>
+              <p class="mx-auto d-none"></p>
+            </div>
+
+
+            <div class="cardify card--rounded col-lg-10 offset-lg-1">
+              <h4 class="color-dark mb-5 text-center"> Personal information </h4>
+              <form>
+                <input type="text" placeholder="Your Name" class="form-control fc--rounded mb-4" [(ngModel)]="formerToAdd.formerName"
+                  name="formerName"><br>
+                <input type="Email" placeholder="Your Email" class="form-control fc--rounded mb-4" [(ngModel)]="formerToAdd.formerEmail"
+                  name="formerEmail"><br>
+                <input type="text" placeholder="Your LinkedIn" class="form-control fc--rounded mb-4" [(ngModel)]="formerToAdd.formerLinkedIn"
+                  name="formerLinkedIn"><br>
+                <input type="number" placeholder="Phone Number" class="form-control fc--rounded mb-4" [(ngModel)]="formerToAdd.formerPhoneNumber"
+                  name="formerPhoneNumber"><br>
+                <input type="text" placeholder="Specialty" class="form-control fc--rounded mb-4" [(ngModel)]="formerToAdd.formerSpecialty"
+                  name="formerSpecialty"><br>
+                <textarea type="number" placeholder="Description" class="form-control fc--rounded mb-4" [(ngModel)]="formerToAdd.fromerDescription"
+                  name="fromerDescription"></textarea><br>
+                <input type="password" placeholder="Password" class="form-control fc--rounded col-lg-6 offset-lg-3"
+                  [(ngModel)]="formerToAdd.formerPassword" name="formerPassword"><br>
+
+                <button class="btn btn-primary btn--rounded btn-block col-lg-4 offset-lg-4" (click)="addNewFormer()">Sign
+                  UP</button>
+              </form>
+            </div>
+            <br> <br>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="clients-logo">
+    <br> <br> <br> <br>
+
+  </div>
+</section><!-- ends: .content-block -->
